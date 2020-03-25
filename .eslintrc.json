@@ -1,0 +1,38 @@
+{
+    "env": {
+        "browser": true,
+        "es6": true,
+        "node": true
+    },
+    "extends": [
+        "google"
+    ],
+    "globals": {
+        "Atomics": "readonly",
+        "SharedArrayBuffer": "readonly"
+    },
+    "parserOptions": {
+        "ecmaVersion": 2018,
+        "sourceType": "module"
+    },
+    "rules": {
+        "space-infix-ops": "warn",
+        "valid-jsdoc": ["warn", {
+            "requireReturnType": true,
+            "requireParamDescription": true,
+            "requireReturnDescription": true,
+            "requireReturn": false
+        }],
+        "no-use-before-define": ["error", { 
+            "functions": true, 
+            "classes": true,
+            "variables": true 
+        }],
+        "prefer-const": ["warn", {
+            "ignoreReadBeforeAssign": true  
+        }],
+        "max-len": ["error", { 
+            "ignorePattern": "^\\s*const\\s.+=\\s*require\\s*\\(" 
+        }]
+    }
+}
