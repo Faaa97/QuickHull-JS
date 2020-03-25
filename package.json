@@ -17,7 +17,9 @@
     "mocha": "^7.1.1"
   },
   "scripts": {
-    "test": "mocha"
+    "start": "node src/quick-hull.js",
+    "test": "mocha",
+    "jsdoc": "jsdoc src/ -r src/*.md -r -d docs"
   },
   "repository": {
     "type": "git",
