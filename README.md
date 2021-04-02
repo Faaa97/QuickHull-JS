@@ -1,4 +1,4 @@
-# PAI Lab assignment (lab, class presentation with slides) structure
+# QuickHull-JS
 
 This directory is organised as follows:
 
