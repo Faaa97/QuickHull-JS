@@ -9,7 +9,7 @@
  */
 'use strict';
 
-import {quickHull, generatePoints} from './src/quick-hull.js';
+import {quickHull, generatePoints} from '../src/quick-hull.js';
 
 /**
  *
