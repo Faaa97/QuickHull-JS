@@ -22,7 +22,7 @@ jobs:
     - run: |
         cp ./README.md ./live/README.md
         cp ./LICENSE ./live/LICENSE
-        cp ./src ./live/src
+        cp -r ./src ./live/src
 
     # Create a fresh git repo in www
     - name: Init new repo in www and commit generated files
