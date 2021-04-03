@@ -1,11 +1,8 @@
 {
-  "name": "quickhull-alu0100969535",
+  "name": "quickhull-js",
   "version": "1.0.0",
   "description": "QuickHull in javascript",
   "main": "index.js",
-  "directories": {
-    "test": "tests"
-  },
   "dependencies": {
     "chai": "^4.2.0",
     "eslint": "^6.8.0",
@@ -15,12 +12,10 @@
     "eslint": "^6.8.0",
     "eslint-config-google": "^0.14.0",
     "gh-pages": "^3.1.0",
-    "mocha": "^7.1.1",
     "push-dir": "^0.4.1"
   },
   "scripts": {
     "start": "node src/quick-hull.js",
-    "test": "mocha",
     "jsdoc": "jsdoc src/ -r src/*.md -r -d docs"
   },
   "repository": {
