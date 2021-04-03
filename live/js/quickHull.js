@@ -72,6 +72,7 @@ function printConvexHull(polygon) {
  *
  */
 function compute() {
+  clearCanvas();
   const canvasHeight = 500;
   const canvasWidth = 500;
   const padding = 25;
